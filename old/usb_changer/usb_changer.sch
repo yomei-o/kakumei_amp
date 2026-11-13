@@ -1,0 +1,516 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Module:Arduino_Nano_v3.x A1
+U 1 1 5F562524
+P 6850 2750
+F 0 "A1" H 6850 1661 50  0000 C CNN
+F 1 "Arduino_Nano_v3.x" H 6850 1570 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 6850 2750 50  0001 C CIN
+F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 6850 2750 50  0001 C CNN
+	1    6850 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Barrel_Jack_Switch J4
+U 1 1 5F564C6A
+P 2350 1400
+F 0 "J4" H 2407 1717 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 2407 1626 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 2400 1360 50  0001 C CNN
+F 3 "~" H 2400 1360 50  0001 C CNN
+	1    2350 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:TLP627 U1
+U 1 1 5F569312
+P 4250 1550
+F 0 "U1" H 4250 1233 50  0000 C CNN
+F 1 "TLP241" H 4250 1324 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 3950 1350 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=16914&prodName=TLP627" H 4250 1550 50  0001 L CNN
+	1    4250 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Isolator:TLP627 U2
+U 1 1 5F55F55C
+P 4250 2100
+F 0 "U2" H 4250 1783 50  0000 C CNN
+F 1 "TLP241" H 4250 1874 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 3950 1900 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=16914&prodName=TLP627" H 4250 2100 50  0001 L CNN
+	1    4250 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Isolator:TLP627 U3
+U 1 1 5F561941
+P 4250 2650
+F 0 "U3" H 4250 2333 50  0000 C CNN
+F 1 "TLP241" H 4250 2424 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 3950 2450 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=16914&prodName=TLP627" H 4250 2650 50  0001 L CNN
+	1    4250 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Isolator:TLP627 U4
+U 1 1 5F562997
+P 4250 3200
+F 0 "U4" H 4250 2883 50  0000 C CNN
+F 1 "TLP241" H 4250 2974 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 3950 3000 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=16914&prodName=TLP627" H 4250 3200 50  0001 L CNN
+	1    4250 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Isolator:TLP627 U5
+U 1 1 5F5637DD
+P 4250 3750
+F 0 "U5" H 4250 3433 50  0000 C CNN
+F 1 "TLP241" H 4250 3524 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 3950 3550 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=16914&prodName=TLP627" H 4250 3750 50  0001 L CNN
+	1    4250 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Isolator:TLP627 U6
+U 1 1 5F571A99
+P 4250 4300
+F 0 "U6" H 4250 3983 50  0000 C CNN
+F 1 "TLP241" H 4250 4074 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 3950 4100 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=16914&prodName=TLP627" H 4250 4300 50  0001 L CNN
+	1    4250 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR04
+U 1 1 5F57434F
+P 6750 1200
+F 0 "#PWR04" H 6750 1050 50  0001 C CNN
+F 1 "VCC" H 6765 1373 50  0000 C CNN
+F 2 "" H 6750 1200 50  0001 C CNN
+F 3 "" H 6750 1200 50  0001 C CNN
+	1    6750 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR01
+U 1 1 5F574BD4
+P 3050 1000
+F 0 "#PWR01" H 3050 850 50  0001 C CNN
+F 1 "VCC" H 3065 1173 50  0000 C CNN
+F 2 "" H 3050 1000 50  0001 C CNN
+F 3 "" H 3050 1000 50  0001 C CNN
+	1    3050 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5F5755D9
+P 3050 1800
+F 0 "#PWR02" H 3050 1550 50  0001 C CNN
+F 1 "GND" H 3055 1627 50  0000 C CNN
+F 2 "" H 3050 1800 50  0001 C CNN
+F 3 "" H 3050 1800 50  0001 C CNN
+	1    3050 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 1000 3050 1300
+Wire Wire Line
+	3050 1300 2650 1300
+Wire Wire Line
+	2650 1400 2650 1500
+Wire Wire Line
+	2650 1500 3050 1500
+Wire Wire Line
+	3050 1500 3050 1800
+Connection ~ 2650 1500
+Wire Wire Line
+	2350 2350 3300 2350
+Wire Wire Line
+	3300 2350 3300 1450
+Wire Wire Line
+	3300 1450 3850 1450
+Wire Wire Line
+	2350 2550 3350 2550
+Wire Wire Line
+	3350 2550 3350 2000
+Wire Wire Line
+	3350 2000 3850 2000
+Wire Wire Line
+	3400 2650 3400 2550
+Wire Wire Line
+	3400 2550 3850 2550
+$Comp
+L Connector:USB_A J2
+U 1 1 5F55EE81
+P 2050 3550
+F 0 "J2" H 2107 4017 50  0000 C CNN
+F 1 "USB_A" H 2107 3926 50  0000 C CNN
+F 2 "Connector_USB:USB_A_Molex_67643_Horizontal" H 2200 3500 50  0001 C CNN
+F 3 " ~" H 2200 3500 50  0001 C CNN
+	1    2050 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 2650 3400 2650
+Wire Wire Line
+	2650 1500 2650 2950
+Wire Wire Line
+	2650 2950 2050 2950
+Wire Wire Line
+	2650 2950 2650 3950
+Wire Wire Line
+	2650 3950 2050 3950
+Connection ~ 2650 2950
+Wire Wire Line
+	2050 4950 2650 4950
+Wire Wire Line
+	2650 4950 2650 3950
+Connection ~ 2650 3950
+Wire Wire Line
+	2350 3350 3450 3350
+Wire Wire Line
+	3450 3350 3450 3300
+Wire Wire Line
+	3450 1650 3850 1650
+Wire Wire Line
+	3500 3550 3500 2200
+Wire Wire Line
+	3500 2200 3850 2200
+Wire Wire Line
+	2350 3550 3500 3550
+Wire Wire Line
+	2350 3650 3550 3650
+Wire Wire Line
+	3550 3650 3550 2750
+Wire Wire Line
+	3550 2750 3850 2750
+Wire Wire Line
+	2350 4350 3600 4350
+Wire Wire Line
+	3600 4350 3600 3100
+Wire Wire Line
+	3600 3100 3850 3100
+Wire Wire Line
+	3850 3300 3450 3300
+Connection ~ 3450 3300
+Wire Wire Line
+	3450 3300 3450 1650
+Wire Wire Line
+	2350 4550 3650 4550
+Wire Wire Line
+	3650 4550 3650 3650
+Wire Wire Line
+	3650 3650 3850 3650
+Wire Wire Line
+	3850 3850 3500 3850
+Wire Wire Line
+	3500 3850 3500 3550
+Connection ~ 3500 3550
+Wire Wire Line
+	2350 4650 2700 4650
+Wire Wire Line
+	2700 4650 2700 4200
+Wire Wire Line
+	2700 4200 3850 4200
+Wire Wire Line
+	3850 4400 3550 4400
+Wire Wire Line
+	3550 4400 3550 3650
+Connection ~ 3550 3650
+Wire Wire Line
+	4650 1450 4750 1450
+Wire Wire Line
+	4750 1450 4750 2000
+Wire Wire Line
+	4750 2000 4650 2000
+Wire Wire Line
+	4750 2000 4750 2550
+Wire Wire Line
+	4750 2550 4650 2550
+Connection ~ 4750 2000
+Wire Wire Line
+	4750 2550 4750 3100
+Wire Wire Line
+	4750 3100 4650 3100
+Connection ~ 4750 2550
+Wire Wire Line
+	4750 3650 4650 3650
+Connection ~ 4750 3100
+Wire Wire Line
+	4750 3650 4750 4200
+Wire Wire Line
+	4750 4200 4650 4200
+Connection ~ 4750 3650
+Wire Wire Line
+	4750 4200 5500 4200
+Wire Wire Line
+	6950 4200 6950 3750
+Connection ~ 4750 4200
+$Comp
+L power:GND #PWR03
+U 1 1 5F5A0C5D
+P 5500 4500
+F 0 "#PWR03" H 5500 4250 50  0001 C CNN
+F 1 "GND" H 5505 4327 50  0000 C CNN
+F 2 "" H 5500 4500 50  0001 C CNN
+F 3 "" H 5500 4500 50  0001 C CNN
+	1    5500 4500
+	1    0    0    -1  
+$EndComp
+Connection ~ 5500 4200
+Wire Wire Line
+	5500 4200 5700 4200
+$Comp
+L Device:R R5
+U 1 1 5F5A24F8
+P 5000 3850
+F 0 "R5" V 4793 3850 50  0000 C CNN
+F 1 "R" V 4884 3850 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4930 3850 50  0001 C CNN
+F 3 "~" H 5000 3850 50  0001 C CNN
+	1    5000 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5F5A2A71
+P 5000 4400
+F 0 "R6" V 4793 4400 50  0000 C CNN
+F 1 "R" V 4884 4400 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4930 4400 50  0001 C CNN
+F 3 "~" H 5000 4400 50  0001 C CNN
+	1    5000 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5F5A301B
+P 5000 3300
+F 0 "R4" V 4793 3300 50  0000 C CNN
+F 1 "R" V 4884 3300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4930 3300 50  0001 C CNN
+F 3 "~" H 5000 3300 50  0001 C CNN
+	1    5000 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5F5A5F70
+P 5000 2200
+F 0 "R2" V 4793 2200 50  0000 C CNN
+F 1 "R" V 4884 2200 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4930 2200 50  0001 C CNN
+F 3 "~" H 5000 2200 50  0001 C CNN
+	1    5000 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5F5A6AC5
+P 5000 1650
+F 0 "R1" V 4793 1650 50  0000 C CNN
+F 1 "R" V 4884 1650 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4930 1650 50  0001 C CNN
+F 3 "~" H 5000 1650 50  0001 C CNN
+	1    5000 1650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 1650 4850 1650
+Wire Wire Line
+	4650 2200 4850 2200
+Wire Wire Line
+	5150 1650 6250 1650
+Wire Wire Line
+	6250 1650 6250 2350
+Wire Wire Line
+	6250 2350 6350 2350
+Wire Wire Line
+	5150 2200 6200 2200
+Wire Wire Line
+	6200 2200 6200 2450
+Wire Wire Line
+	6200 2450 6350 2450
+Wire Wire Line
+	4650 2750 4850 2750
+Wire Wire Line
+	4750 3100 4750 3650
+Wire Wire Line
+	4650 3300 4850 3300
+Wire Wire Line
+	5150 2750 5150 2550
+Wire Wire Line
+	5150 2550 6350 2550
+Wire Wire Line
+	5150 3300 5200 3300
+Wire Wire Line
+	5200 3300 5200 2650
+Wire Wire Line
+	5200 2650 6350 2650
+Wire Wire Line
+	4650 3850 4850 3850
+Wire Wire Line
+	4650 4400 4850 4400
+Wire Wire Line
+	5150 3850 5250 3850
+Wire Wire Line
+	5250 3850 5250 2750
+Wire Wire Line
+	5250 2750 6350 2750
+Wire Wire Line
+	5150 4400 5300 4400
+Wire Wire Line
+	5300 4400 5300 2850
+Wire Wire Line
+	5300 2850 6350 2850
+Wire Wire Line
+	6850 3750 6950 3750
+Connection ~ 6950 3750
+NoConn ~ 6950 1750
+NoConn ~ 7050 1750
+NoConn ~ 6350 2150
+NoConn ~ 6350 2250
+NoConn ~ 7350 2550
+NoConn ~ 7350 2750
+NoConn ~ 7350 2850
+NoConn ~ 7350 2950
+NoConn ~ 7350 3050
+NoConn ~ 7350 3150
+NoConn ~ 7350 3250
+NoConn ~ 7350 3350
+NoConn ~ 7350 3450
+NoConn ~ 6350 3150
+NoConn ~ 6350 3250
+NoConn ~ 6350 3350
+NoConn ~ 6350 3450
+$Comp
+L Connector:USB_B J1
+U 1 1 5F5EA287
+P 2050 2550
+F 0 "J1" H 2107 3017 50  0000 C CNN
+F 1 "USB_B" H 2107 2926 50  0000 C CNN
+F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 2200 2500 50  0001 C CNN
+F 3 " ~" H 2200 2500 50  0001 C CNN
+	1    2050 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B J3
+U 1 1 5F5F491E
+P 2050 4550
+F 0 "J3" H 2107 5017 50  0000 C CNN
+F 1 "USB_B" H 2107 4926 50  0000 C CNN
+F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 2200 4500 50  0001 C CNN
+F 3 " ~" H 2200 4500 50  0001 C CNN
+	1    2050 4550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1950 2950
+NoConn ~ 1950 3950
+NoConn ~ 1950 4950
+$Comp
+L Device:R R7
+U 1 1 5F604A16
+P 5700 3200
+F 0 "R7" H 5770 3246 50  0000 L CNN
+F 1 "R" H 5770 3155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5630 3200 50  0001 C CNN
+F 3 "~" H 5700 3200 50  0001 C CNN
+	1    5700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5F6055DC
+P 5950 3200
+F 0 "R8" H 6020 3246 50  0000 L CNN
+F 1 "R" H 6020 3155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5880 3200 50  0001 C CNN
+F 3 "~" H 5950 3200 50  0001 C CNN
+	1    5950 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 3050 5700 2950
+Wire Wire Line
+	5700 2950 6350 2950
+Wire Wire Line
+	5950 3050 6350 3050
+$Comp
+L Device:LED D1
+U 1 1 5F61500D
+P 5700 3650
+F 0 "D1" V 5739 3532 50  0000 R CNN
+F 1 "LED" V 5648 3532 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 5700 3650 50  0001 C CNN
+F 3 "~" H 5700 3650 50  0001 C CNN
+	1    5700 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5F6157B7
+P 6050 3650
+F 0 "D2" V 6089 3532 50  0000 R CNN
+F 1 "LED" V 5998 3532 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 6050 3650 50  0001 C CNN
+F 3 "~" H 6050 3650 50  0001 C CNN
+	1    6050 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5700 3350 5700 3500
+Wire Wire Line
+	5950 3350 5950 3500
+Wire Wire Line
+	5950 3500 6050 3500
+Connection ~ 5700 4200
+Wire Wire Line
+	5700 4200 6050 4200
+Wire Wire Line
+	5700 3800 5700 4200
+Wire Wire Line
+	6050 3800 6050 4200
+Connection ~ 6050 4200
+Wire Wire Line
+	6050 4200 6950 4200
+NoConn ~ 7350 2150
+NoConn ~ 7350 2250
+Wire Wire Line
+	5500 4200 5500 4500
+Wire Wire Line
+	6750 1750 6750 1200
+$Comp
+L Device:R R3
+U 1 1 5F5A3DA8
+P 5000 2750
+F 0 "R3" V 4793 2750 50  0000 C CNN
+F 1 "R" V 4884 2750 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4930 2750 50  0001 C CNN
+F 3 "~" H 5000 2750 50  0001 C CNN
+	1    5000 2750
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
